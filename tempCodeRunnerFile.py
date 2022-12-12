@@ -1,5 +1,5 @@
-# # string
-my_string="Hello world from python"
+ing
+# my_string="Hello world from python"
 # for i in my_string:
 #     if i=="o":
 #        i= i.upper()
@@ -32,19 +32,8 @@ my_string="Hello world from python"
 # print(my_another.strip())
 
 # # split used to seprate the string in indexing form
-#  print(my_string.split())
+# print(my_string.split())
 
 # # for indexing of string 
 # for index,iterm in enumerate(my_string):
 #     print("index of every string:",index,iterm)
-
-# for making upper in split string  having even number of position
-mmy=my_string.split()
-for index,item in enumerate(mmy):
-    if index % 2 == 0:
-        mmy[index] = item.upper() 
-print(mmy)
-
-# 
-b=[item.upper() for item in mmy if mmy.index(item) % 2 ==0]
-print(b)
