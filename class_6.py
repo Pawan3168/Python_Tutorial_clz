@@ -5,4 +5,3 @@ for i in my_string:
        i= i.upper()
     print(i)
 
-m
