@@ -1,5 +1,5 @@
-# # string
-my_string="Hello world from python"
+# # # string
+# my_string="Hello world from python"
 # for i in my_string:
 #     if i=="o":
 #        i= i.upper()
@@ -39,12 +39,26 @@ my_string="Hello world from python"
 #     print("index of every string:",index,iterm)
 
 # for making upper in split string  having even number of position
-mmy=my_string.split()
-for index,item in enumerate(mmy):
-    if index % 2 == 0:
-        mmy[index] = item.upper() 
-print(mmy)
+# mmy=my_string.split()
+# for index,item in enumerate(mmy):
+#     if index % 2 == 0:
+#         mmy[index] = item.upper() 
+# print(mmy)
 
-# 
-b=[item.upper() for item in mmy if mmy.index(item) % 2 ==0]
-print(b)
+# # 
+# b=[item.upper() for item in mmy if mmy.index(item) % 2 ==0]
+# print(b)
+
+X = [[1,8,4],
+    [4 ,5,6],
+    [5 ,8,9]]
+
+Y = [[15,8,3],
+    [6,4,7],
+    [4,6,9]]
+
+result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+p=[result[i][j]=result[i][j]+X[i][k]*Y[k][j] for i in range(len(X)) for j in range(len(Y[0])) for k in range(len(Y))]
+print(result)
