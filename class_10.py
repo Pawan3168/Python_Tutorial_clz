@@ -37,8 +37,8 @@
 f = lambda x : x**2 + 5 *x  + 1
 print(f(1))
 
-g = lambda name : name + name + "1"
-print(g("Pawan"))
+# g = lambda name : name + name + "1"
+# print(g("Pawan"))
 
 h = lambda x, y : x**2 + 5*x*y +1
 print(h(4,5))
